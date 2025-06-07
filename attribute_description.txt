@@ -1,0 +1,70 @@
+Attribute Information
+
+1. Age: age of the patient [years]
+
+2. Sex: sex of the patient [M: Male, F: Female]
+
+3. ChestPainType: [
+    TA: Typical Angina,
+    ATA: Atypical Angina,
+    NAP: Non-Anginal Pain, 
+    ASY: Asymptomatic
+]
+
+4. RestingBP: resting blood pressure[mm HG
+    Normal: < 120 mmHG,
+    High-Normal (Elevated): 120 - 129 mmHG,
+    High (Hypertension): 
+        Stage 1: 130 - 139 mmHG,
+        Stage 2: >= 140 mmHG
+]
+
+5. Cholesterol: Serum cholesterol [mm/dl
+    Normal: < 200 mm/dl,
+    Borderline high: 200 - 239 mg/dl,
+    High: >= 240 mg/dl
+]
+
+6. FastingBS: fasting blood sugar [
+    1: if FastingBS > 120 mg/dl,
+    0: otherwise
+
+    Normal: 70-99 mg/dl,
+    Prediabetes: 100 - 125 mg/dl,
+    Diabetes: >= 126 mg/dl (on two seperate tests)
+]
+
+7. RestingECG: resting ECG results [
+    Normal: Normal,
+
+    ST: having ST-T wave abnormality (T wave inversions 
+    and/or ST elevation or depression of > 0.05 mV),
+
+    LVH (Left Ventricular Hypertrophy): showing probable or definte left ventricular 
+    hypertrophy by Ests' criteria
+]
+
+8. MaxHR: maximum heart rate achieved [Numeric value between 60 and 202]
+
+9. ExerciseAngina: exercise-induced angine [
+    Y: Yes,
+    N: No
+]
+
+10. Oldpeak: oldpeak = ST [Numeric value measured in depression
+    Normal (Low): 0.0 - 0.5
+    Slightly elevated: 0.5 - 1.0
+    High: 1.0 - 2.0
+    Very high: > 2.0
+]
+
+11. ST_Slope: the slope of the peak exercise ST segment[
+    Up: upsloping (Normal),
+    Flat: flat (Reduced blood flow),
+    Down: downsloping (High risk)
+]
+
+12. HeartDisease: output class[
+    1: heart disease,
+    0: Normal
+]
